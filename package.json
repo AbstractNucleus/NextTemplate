@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "pretty": "prettier --write .",
+    "migrate": "npx prisma migrate dev",
+    "push": "npx prisma push",
+    "prisma": "npx prisma studio"
+  },
+  "dependencies": {
+    "next-auth": "^4.3.1",
+    "nextjs": "^0.0.3",
+    "prisma": "^3.11.0",
+    "tailwindcss": "^3.0.23"
+  }
+}
